@@ -27,8 +27,7 @@ public class AccessRecipeIngredients {
 
 			// Setup the connection with the DB
 			connect = DriverManager
-			          .getConnection("jdbc:mysql://localhost:3306/diet",
-			                  "root","yuexiyao@123A");
+			          .getConnection(****); // fixed
 		} catch (Exception e) {
 			throw e;
 		}
